@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "avatar_url": "http://google.com",
+      "name": "Chuck",
+      "email": "chuck@gmail.com",
+      "birth": 863395200000,
+      "grau": "5º ano EF",
+      "carga": "10"
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://google.com",
+      "name": "Xuxa Saruê",
+      "email": "xuxa@gmail.com",
+      "birth": 1422748800000,
+      "grau": "5º ano EF",
+      "carga": "2"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "name": "Costelinha",
+      "birth": 455241600000,
+      "grau": "Ensino Médio Completo",
+      "tipo": "P",
+      "services": "Geografia, História",
+      "created_at": 1582475051271
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://google.com",
+      "name": "Mayk",
+      "birth": 386467200000,
+      "grau": "Doutorado",
+      "tipo": "D",
+      "services": "Matemática, Física",
+      "created_at": 1582476439552
+    }
+  ]
+}

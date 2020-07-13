@@ -1,0 +1,60 @@
+<div class="item">
+    <div>Avatar URL</div>
+    <div>
+        <input type="url" name="avatar_url" placeholder="http://" value="{{student.avatar_url}}" >
+    </div>
+    </div>
+    <div class="item">
+        <div>Nome</div>
+        <div>
+            <input type="text" name="name" placeholder="Nome do Aluno" value="{{student.name}}"  >
+        </div>
+    </div>
+    <div class="item">
+        <div>Email</div>
+        <div>
+            <input type="email" name="email" value="{{student.email}}"  >
+        </div>
+    </div>
+    <div class="item">
+        <div>Data de Nascimento</div>
+        <div><input type="date" name="birth" value="{{student.birth}}"></div>
+    </div>
+     <div class="item">
+        <div>Ano Escolar</div>
+        <div>
+            <select name="grau">
+                <option value="5º ano EF"
+                    {% if student.blood =="5º ano EF"%}selected{%endif%}>5º ano EF
+                </option>
+                <option value="6º ano EF"
+                    {% if student.blood =="6º ano EF"%}selected{%endif%}>6º ano EF
+                </option>
+                <option value="7º ano EF"
+                    {% if student.blood =="7º ano EF"%}selected{%endif%}>7º ano EF
+                </option>
+                <option value="8º ano EF"
+                    {% if student.blood =="8º ano EF"%}selected{%endif%}>8º ano EF
+                </option>
+                <option value="9º ano EF"
+                    {% if student.blood =="9º ano EF"%}selected{%endif%}>9º ano EF
+                </option>
+                <option value="1º ano EM"
+                    {% if student.blood =="1º ano EM"%}selected{%endif%}>1º ano EM
+                </option>
+                <option value="2º ano EM"
+                    {% if student.blood =="2º ano EM"%}selected{%endif%}>2º ano EM
+                </option>
+                <option value="3º ano EM"
+                    {% if student.blood =="3º ano EM"%}selected{%endif%}>3º ano EM
+                </option>
+            </select>
+        </div>
+    </div> 
+    <div class="item">
+        <div>Carga Horária Semanal</div>
+        <div>
+            <input type="number" name="carga" value="{{student.carga}}">
+        </div>
+    </div>
+    <button type="submit">Salvar</button>
